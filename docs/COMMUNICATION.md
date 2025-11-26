@@ -2,15 +2,14 @@
 
 ## Canaux
 - **Teams – canal #général** : annonces, décisions, comptes rendus (CR).
-- **Teams – canal #bloquants** : obstacles. SLA réponse ≤ 2h ouvrées.
+- **Teams – canal #bloquants** : obstacles.
 - **Repo Git – Issues/PRs** : suivi technique (source de vérité).
-- **Stand-up async** : message quotidien (hier/aujourd'hui/risques).
 
-## Rituels
-- **Daily (10 min)** : focus blocages, pas de résolution en live.
-- **Revue hebdo (30 min)** : démo, avancement, arbitrages.
-- **Rétro (20 min toutes les 2 sem.)** : garder/améliorer/arrêter.
-- **Point risques (10 min)** : mise à jour du registre.
+
+Rituels
+
+- **Rétro (20 min toutes les 2 sem.)** : Avancements,arbitrages,garder/améliorer/arrêter.
+
 
 ## Règles
 - Toute décision = **postée** dans #général.

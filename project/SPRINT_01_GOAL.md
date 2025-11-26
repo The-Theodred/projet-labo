@@ -1,4 +1,4 @@
-# Sprint 1 – Goal (Prototype de base)
+# Sprint – Goal (Prototype de base)
 
 Avoir un **prototype automatisé** qui, après raccordement d’1 switch, 1 routeur et 1 serveur :
 1. Configure le réseau de base (VLAN mgmt, NTP, syslog) via Ansible.

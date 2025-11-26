@@ -1,0 +1,11 @@
+id,title,labels,assignee,estimate,description,acceptance_criteria
+1,Inventaire matériel & firmwares,"B2,Reseau",,0.5j,"Relever modèles switchs, ports, firmwares; photos; étiquetage","Fichier inventaire + photos déposées"
+2,Design IP plan & VLANs,"B3,Reseau",,1j,"Proposer adressage mgmt/serveurs/VM/DMZ; trunk/access; routage","Schéma validé + IP plan en markdown"
+3,Golden config switch (template Ansible),"B3,Ansible,Reseau",,1j,"Bannières, NTP, syslog, users, SSH, STP, VLANs","Playbook appliqué en lab sur switch1"
+4,Setup Proxmox (rôle base),"B3,Proxmox",,1j,"Installer/paramétrer Proxmox + réseau virtuel","Accès UI + ping VM bridge"
+5,Templates VMs + cloud-init,"B3,VM,Ansible",,1j,"Templates + playbook création VMs","3 VMs créées et joignables"
+6,Config VM DHCP,"B2,VM",,0.5j,"Installer et configurer DHCP","Client reçoit IP correcte"
+7,Config VM DNS,"B2,VM",,0.5j,"Installer et configurer DNS","nslookup retourne enregistrement attendu"
+8,Config VM Apache,"B2,VM",,0.5j,"Installer Apache + page test","curl renvoie 200"
+9,Supervision de base,"B3,Supervision",,0.5j,"Node exporter/agent + dashboard minimal","Métriques ping/CPU/RAM visibles"
+10,Backup conf switch,"B3,Ansible",,0.5j,"Sauvegarder conf et tester restauration","Restauration validée sur switch1"

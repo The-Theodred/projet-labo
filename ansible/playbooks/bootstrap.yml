@@ -1,0 +1,12 @@
+---
+- name: Bootstrap réseau et hôtes
+  hosts: network:router
+  gather_facts: no
+  roles:
+    - role: network_base
+
+- name: Préparation hôte Proxmox
+  hosts: proxmox
+  gather_facts: yes
+  roles:
+    - role: proxmox_base

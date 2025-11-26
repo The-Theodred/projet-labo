@@ -1,0 +1,14 @@
+---
+- name: Provision VMs et services
+  hosts: proxmox
+  gather_facts: yes
+  roles:
+    - role: proxmox_vms
+
+- name: Config VMs (DHCP/DNS/Apache)
+  hosts: vms_dns:vms_dhcp:vms_web
+  gather_facts: yes
+  roles:
+    - { role: vm_dns, when: "'vms_dns' in group_names" }
+    - { role: vm_dhcp, when: "'vms_dhcp' in group_names" }
+    - { role: vm_apache, when: "'vms_web' in group_names" }

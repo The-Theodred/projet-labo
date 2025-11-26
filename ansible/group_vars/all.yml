@@ -1,0 +1,4 @@
+ntp_servers:
+  - pool.ntp.org
+syslog_server: 192.0.2.50
+mgmt_vlan: 10
